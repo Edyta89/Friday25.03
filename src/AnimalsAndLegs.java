@@ -15,6 +15,6 @@ public class AnimalsAndLegs {
         int pigLegs = pigs *4;
         int all = pigLegs+ chickenLegs;
        System.out.println("All legs " + all );
-     
+
     }
 }
