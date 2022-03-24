@@ -3,9 +3,9 @@ public class SecondsInADay {
         int currentHours = 14;
         int currentMinutes = 34;
         int currentSeconds = 42;
-        int currentHoursToSec = currentHours * 360;
+        int currentHoursToSec = currentHours * 3600;
         int currentMinutesToSec = currentMinutes *60;
-        int day = 24 * 360;
+        int day = 24 * 3600;
         int remainingSec = day-currentSeconds-currentHoursToSec-currentMinutesToSec;
         System.out.println(remainingSec);
 
