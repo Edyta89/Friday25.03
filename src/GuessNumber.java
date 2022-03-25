@@ -38,7 +38,8 @@ public class GuessNumber {
           case 8:
               System.out.println("The stored number is lower");
               break;
-
+          default:
+              System.out.println("Not correct number");
 
       }
 
